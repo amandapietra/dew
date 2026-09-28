@@ -35,3 +35,36 @@ img {
     margin: auto;
     max-width: 150px;
 }
+
+/* exercício 2 - pd 1 */
+.banner {
+    height: 300px;
+    width: 100%;
+    background-image: url(https://gazin-marketplace.s3.amazonaws.com/midias/imagens/2024/09/smart-tv-lg-43-4k-ut80-comando-de-voz-43ut8000psa-092409451240.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* exercício 2 - pd 2 */
+.hide {
+    display: none;
+}
+
+/* exercício 2 - pd 3 */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+/* exercício 2 - all 1 */
+body {
+    padding: 20px;
+    margin: 20px
+}
+
+/* exercício 2 - all 2 */
+a:hover {
+    opacity: 0.5;
+}
